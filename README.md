@@ -19,7 +19,7 @@ node npm install --omit=dev
 ```
 - Build the Docker NodeJS image for servers
 ```bash
-docker build -t cnode:22 -f Dockerfile-cnode-22 .
+docker build -t cnode:24 -f Dockerfile-cnode-24 .
 ```
 - Start the server into Docker
 ```bash

@@ -15,7 +15,7 @@
         {
             "name": "My-NodeJS-Server",
             "type": "nodejs",
-            "dockerImage": "cnode:22",
+            "dockerImage": "cnode:24",
             "startCommand": "node index.js", // Optional
             "mainFile": "index.js", // Optional
             "ports": {}, // Optional, if not provided, the server will be network host
@@ -60,7 +60,7 @@
             "name": "My-ReactJs-Website",
             "type": "reactjs",
             "deployment": { // Optional
-                "dockerImage": "cnode:22",
+                "dockerImage": "cnode:24",
                 "githubRepo": "Raraph84/Deploy-Server-Frontend",
                 "githubBranch": "main",
                 "githubAuth": "ghp_MY_GITHUB_ACCESS_TOKEN", // Optional

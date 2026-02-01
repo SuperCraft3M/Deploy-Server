@@ -10,7 +10,7 @@
         {
             "name": "Deploy-Server-Website",
             "type": "reactjs",
-            "buildDockerImage": "cnode:22",
+            "buildDockerImage": "cnode:24",
             "deployment": {
                 "githubRepo": "Raraph84/Deploy-Server-Frontend",
                 "githubBranch": "main",
